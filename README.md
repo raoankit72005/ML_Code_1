@@ -1,3 +1,5 @@
+> **Google Colab:** Open the [single-GPU notebook](https://colab.research.google.com/github/raoankit72005/ML_Code_1/blob/main/colab/ML_Code_1_Colab.ipynb). See [Colab setup and limits](colab/README.md).
+
 # ML_Code_1 — tracked hybrid business entity resolution
 
 Original TSV data → cluster split → PyTorch/LoRA multilingual encoder → disk embeddings → country/source FAISS retrieval + lexical blocking → pair features → LightGBM → macro F0.5 threshold → complete test outputs.
